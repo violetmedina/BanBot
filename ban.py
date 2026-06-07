@@ -39,7 +39,7 @@ def run_bot(reddit):
             submissions = reddit.subreddit(str(v)).new(limit=10)
             comments = reddit.subreddit(str(v)).comments(limit=100)
             # search posts/comments function
-            search_subs = f"SEARCHING POSTS IN /r/{v}..."
+            search_subs = "SEARCHING POSTS IN /r/{v}..."
             print(search_subs)
             for submission in submissions:
                 sub_name = submission.author
