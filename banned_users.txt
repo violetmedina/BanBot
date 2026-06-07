@@ -1,0 +1,2 @@
+test_banned_user1
+test_banned_user2
