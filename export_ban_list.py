@@ -7,10 +7,10 @@ import time
 def bot_login():
     print("Logging in...")
     reddit = praw.Reddit(client_id=config.client_id,
-                         client_secret=config.client_secret,
-                         password=config.password,
-                         user_agent='Ban Bot v1 by u/reddit_user',
-                         username=config.username)
+                        client_secret=config.client_secret,
+                        password=config.password,
+                        user_agent='Ban Bot v1 by u/reddit_user',
+                        username=config.username)
     print("Logged in!")
     time.sleep(2)
     return reddit
